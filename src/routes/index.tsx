@@ -32,7 +32,7 @@ function Index() {
             Like coming home <em className="text-primary">for chai.</em>
           </h1>
           <p className="mt-6 max-w-md text-lg text-muted-foreground">
-            Good coffee, hearty breakfasts and home-style lunches, served with a smile from sunrise to evening.
+            Freshly cooked Kenyan favourites, fast food and breakfast combos from KES 40 — loved by Maseno University students and locals alike.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/menu" className="rounded-full bg-primary px-6 py-3 text-primary-foreground shadow-warm">See the menu</Link>
@@ -43,7 +43,7 @@ function Index() {
       </section>
 
       <section className="mx-auto mt-24 grid max-w-6xl gap-px overflow-hidden rounded-3xl border border-border bg-border sm:grid-cols-4">
-        {[["4.0★", "Google rating"], ["6–9", "Open every day"], ["KES 1–500", "Per person"], ["Takeaway", "& delivery"]].map(([b, s]) => (
+        {[["4.0★", "Google rating"], ["6–9", "Open every day"], ["KES 40+", "Meals from"], ["Takeaway", "& delivery"]].map(([b, s]) => (
           <div key={s} className="bg-card p-8 text-center">
             <div className="font-display text-3xl">{b}</div>
             <div className="mt-1 text-sm text-muted-foreground">{s}</div>
