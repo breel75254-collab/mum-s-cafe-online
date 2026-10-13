@@ -21,8 +21,9 @@ function Visit() {
       <section className="mx-auto grid max-w-6xl gap-12 px-6 pt-10 lg:grid-cols-2">
         <div>
           <h1 className="font-display text-6xl">Come visit</h1>
+          <p className="mt-3 text-muted-foreground">Also known locally as Mum's Hotel &amp; Accommodation.</p>
           <dl className="mt-10 space-y-8 text-lg">
-            <div><dt className="text-sm uppercase tracking-widest text-primary">Address</dt><dd className="mt-1">XHRX+GHQ, Maseno, Kisumu County, Kenya</dd></div>
+            <div><dt className="text-sm uppercase tracking-widest text-primary">Address</dt><dd className="mt-1">Maseno town, opposite the Jumia pick-up station<br/>XHRX+GHQ, Maseno, Kisumu County, Kenya</dd></div>
             <div><dt className="text-sm uppercase tracking-widest text-primary">Hours</dt><dd className="mt-1">Every day, 6AM – 9PM</dd></div>
             <div><dt className="text-sm uppercase tracking-widest text-primary">Phone</dt><dd className="mt-1"><a href={PHONE_HREF} className="underline underline-offset-4">{PHONE}</a></dd></div>
             <div><dt className="text-sm uppercase tracking-widest text-primary">Good to know</dt><dd className="mt-1">Cash only · Outdoor seating · Takeaway · Delivery · Plenty of parking</dd></div>
